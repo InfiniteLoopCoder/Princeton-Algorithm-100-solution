@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3b6aae4-bcdb-4679-a442-b51af3fdbdb0" name="Changes" comment="" />
+    <list default="true" id="f3b6aae4-bcdb-4679-a442-b51af3fdbdb0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CollinearPoints/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollinearPoints/src/BruteCollinearPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollinearPoints/src/FastCollinearPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollinearPoints/src/LineSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollinearPoints/src/input6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollinearPoints/src/input8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percolation/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percolation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SliderPuzzle/src/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SliderPuzzle/src/Solver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollinearPoints/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CollinearPoints/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollinearPoints/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CollinearPoints/src/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Percolation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Percolation/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +38,9 @@
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -42,17 +59,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/core/Princeton-Algorithms-I/algs4.jar",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/vip/Documents/Princeton-Algorithm-100-solution/queues",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Application.RandomizedQueue">
-    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-    </configuration>
     <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Permutation" />
       <module name="queues" />
@@ -82,6 +99,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.RandomizedQueue" />
@@ -89,5 +115,26 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-f644763e9732-97de7592" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3b6aae4-bcdb-4679-a442-b51af3fdbdb0" name="Changes" comment="" />
+      <created>1719891616043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719891616043</updated>
+      <workItem from="1719891617140" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>

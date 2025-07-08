@@ -142,27 +142,21 @@ public class Point implements Comparable<Point> {
         Point p3 = new Point(1, 4);
 
         // 打印点的坐标
-        System.out.println("Point p1: " + p1); // 应输出 (1, 2)
-        System.out.println("Point p2: " + p2); // 应输出 (3, 4)
-        System.out.println("Point p3: " + p3); // 应输出 (1, 4)
+        System.out.println("Point p1: " + p1);
+        System.out.println("Point p2: " + p2);
+        System.out.println("Point p3: " + p3);
 
         // 测试compareTo方法
-        System.out.println("Compare p1 to p2: " + p1.compareTo(p2)); // p1 应小于 p2，输出 -1
-        System.out.println("Compare p2 to p3: " + p2.compareTo(p3)); // p2 和 p3 在 y 坐标相等时，比较 x 坐标，p2 应大于 p3，输出 1
-        System.out.println("Compare p1 to p1: " + p1.compareTo(p1)); // p1 应与自己相等，输出 0
+        System.out.println("Compare p1 to p2: " + p1.compareTo(p2));
+        System.out.println("Compare p2 to p3: " + p2.compareTo(p3));
 
         // 测试slopeTo方法
-        System.out.println("Slope from p1 to p2: " + p1.slopeTo(p2)); // 应输出斜率 (4 - 2) / (3 - 1) = 1.0
-        System.out.println("Slope from p2 to p3: " + p2.slopeTo(p3)); // 应输出斜率 (4 - 4) / (1 - 3) = POSITIVE_INFINITY
+        System.out.println("Slope from p1 to p2: " + p1.slopeTo(p2));
+        System.out.println("Slope from p2 to p3: " + p2.slopeTo(p3));
 
         // 测试slopeOrder方法
         Comparator<Point> slopeComparator = p1.slopeOrder();
         System.out.println("Compare slope from p1 to p2 and p1 to p3: " + slopeComparator.compare(p2, p3));
-        // 应输出斜率 (4 - 2) / (3 - 1) = 1.0 与 POSITIVE_INFINITY 的比较结果，输出 -1
 
-        // 绘制点和线段（需要在StdDraw环境下运行）
-        // p1.draw();
-        // p2.draw();
-        // p1.drawTo(p2);
     }
 }

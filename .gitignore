@@ -1,1 +1,13 @@
+# IDE files
+.idea/
+*.iml
+
+# Compiled output
 *.class
+out/
+
+# Archives
+*.zip
+*.rar
+
+# etc...
